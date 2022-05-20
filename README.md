@@ -43,29 +43,32 @@ RESULT: see screenshot in folder1/demoRepo3.png: the new repo "eblancoga/repoDem
 It contains a single branch named "main")
 
 
-########## How to connect your repo in GitHub with your command line interface (CLI) (bash, terminal) ##########
+###### How to connect your repo in GitHub with your command line interface (CLI) (bash, terminal) ######
 
 ### (4) Clone (get a copy) of your new repo in your current working directory:
 
 eblanco:> git clone https://github.com/eblancoga/repoDemo
-Cloning into 'repoDemo'...
-remote: Enumerating objects: 3, done.
-remote: Counting objects: 100% (3/3), done.
-remote: Compressing objects: 100% (2/2), done.
-remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
-Unpacking objects: 100% (3/3), 12.41 KiB | 160.00 KiB/s, done.
+	  Cloning into 'repoDemo'...
+	  remote: Enumerating objects: 3, done.
+	  remote: Counting objects: 100% (3/3), done.
+	  remote: Compressing objects: 100% (2/2), done.
+	  remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+	  Unpacking objects: 100% (3/3), 12.41 KiB | 160.00 KiB/s, done.
 
 eblanco:> cd repoDemo
 
 ### (5) The content is an exact copy of our GitHub repository:
 
 eblanco:> ls
+
 LICENSE
 
 eblanco:> ls -a
+
 .  ..  .git  LICENSE
 
 eblanco:> ls -a .git/
+
 .  ..  branches  config  description  HEAD  hooks  index  info	logs  objects  packed-refs  refs
 
 NOTE: the .git/ subfolder contains internal info for managing the git features
@@ -73,7 +76,9 @@ NOTE: the .git/ subfolder contains internal info for managing the git features
 ### (6) Check the status of this copy:
 
 eblanco:> git status
+
 On branch main
+
 Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
@@ -92,20 +97,25 @@ NOTE: The sequence of typical operations when working with repos:
 NOTE: First, we will generate a new file (README) to be incorporated into the GitHub copy:
 
 eblanco:> cat > README
+
 This is the initial version of this demo repository for GitHub (press Ctrl+D now)
 
 eblanco:> cat README 
+
 This is the initial version of this demo repository for GitHub (press Ctrl+D now)
 
 NOTE: We can check the new status (changes to be added = new file README)
 
 eblanco:> git status
+
 On branch main
+
 Your branch is up to date with 'origin/main'.
 
 Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	README
+
+(use "git add <file>..." to include in what will be committed)
+README
 
 nothing added to commit but untracked files present (use "git add" to track)
 
@@ -122,8 +132,10 @@ On branch main
 Your branch is up to date with 'origin/main'.
 
 Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-	new file:   README
+
+(use "git restore --staged <file>..." to unstage)
+
+new file:   README
 
 NOTE: The Commmit command executes the changes defined by the previous Add and our local repo is updated now
       (-m is the option to include a short message to describe the main changes incorporated now)
