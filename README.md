@@ -430,7 +430,9 @@ eblanco:> git push
 
 RESULT: see screenshot repoDemo9.png
 
-### (12) Copy and paste this text explaining GitHub in 12 steps into our README.md (previous README.md format tricks are shown at the end)
+### (12) Copy and paste this text explaining GitHub in 12 steps into our README.md 
+
+(previous README.md format tricks are shown at the end)
 (current state of the repo right now)
 
 ### (13) MarkDown format tricks for writing READMEs
