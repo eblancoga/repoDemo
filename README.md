@@ -2,21 +2,21 @@
 
 Enrique Blanco @ Luciano Di Croce (CRG, 2013-2022)
 
-########## WEB ##########
+########## WEB: Please use Firefox, Chrome or other internet browser in this block ##########
 
-(0) Explore the Github repository management documentation:
+### (0) Explore the Github repository management documentation:
 https://docs.github.com/en
 https://github.com/git-guides/
 
-(1) Create your user account in GitHub (username "eblancoga" for this tutorial):
+### (1) Create your user account in GitHub (username "eblancoga" for this tutorial):
 https://github.com/signup
 
-(2) Generate a token for your authentification in future operations:
+### (2) Generate a token for your authentification in future operations:
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
 NOTE: Once you get the token, store it in a safe place for the future)
 
-(3) Create a New repository (empty) in your GitHub account: ("repoDemo" is the name that will be used here)
+### (3) Create a New repository (empty) in your GitHub account: ("repoDemo" is the name that will be used here)
 
 https://github.com/new
 
@@ -45,7 +45,7 @@ It contains a single branch named "main")
 
 ########## How to connect your repo in GitHub with your command line interface (CLI) (bash, terminal) ##########
 
-(4) Clone (get a copy) of your new repo in your current working directory:
+### (4) Clone (get a copy) of your new repo in your current working directory:
 
 eblanco:> git clone https://github.com/eblancoga/repoDemo
 Cloning into 'repoDemo'...
@@ -57,7 +57,7 @@ Unpacking objects: 100% (3/3), 12.41 KiB | 160.00 KiB/s, done.
 
 eblanco:> cd repoDemo
 
-(5) The content is an exact copy of our GitHub repository:
+### (5) The content is an exact copy of our GitHub repository:
 
 eblanco:> ls
 LICENSE
@@ -70,7 +70,7 @@ eblanco:> ls -a .git/
 
 NOTE: the .git/ subfolder contains internal info for managing the git features
 
-(6) Check the status of this copy:
+### (6) Check the status of this copy:
 
 eblanco:> git status
 On branch main
@@ -81,7 +81,7 @@ nothing to commit, working tree clean
 NOTE: The "git status" command display information about changes that eventually have been done in your
 current repo copy (in comparison to the GitHub copy of the repo, which is the consolidated one)
 
-(7) Consolidate file changes in our local copy and into the GitHub copy: add/commit/push
+### (7) Consolidate file changes in our local copy and into the GitHub copy: add/commit/push
 
 NOTE: The sequence of typical operations when working with repos:
 - you make changes in your local copy (new files, new folders, edit files, ...)
@@ -161,7 +161,7 @@ nothing to commit, working tree clean
 
 RESULT: see screenshot in folder1/demoRepo4.png: our repo includes the README file, which is automatically shown.
 
-(8) Consolidate new folders in our local copy and into the GitHub copy
+### (8) Consolidate new folders in our local copy and into the GitHub copy
 
 eblanco:> mkdir folder1 folder2
 
@@ -215,7 +215,7 @@ nothing to commit, working tree clean
 
 RESULT: see screenshot in folder1/demoRepo5.png: our repo includes the two new folders.
 
-(9) Populating the repo (folders): example1
+### (9) Populating the repo (folders): example1
 
 NOTE: We copy/move any file of our computer into our local copy of our repo and perform add/commit/push
 to reflect these changes in the remote copy of the repo
@@ -261,7 +261,7 @@ To https://github.com/eblancoga/repoDemo
 
 RESULT: see screenshot repoDemo6.png
 
-(10) Populating the repo (folders): example2
+### (10) Populating the repo (folders): example2
 
 NOTE: We copy/move any file of our computer into our local copy of our repo and perform add/commit/push
 to reflect these changes in the remote copy of the repo
@@ -364,7 +364,7 @@ To https://github.com/eblancoga/repoDemo
 
 RESULT: see screenshot repoDemo8.png
 
-(11) Generating a nice version of the README (using README.md, markdown)
+### (11) Generating a nice version of the README (using README.md, markdown)
 
 NOTE: I've edited a README.md file here. Please, type more README.md in your terminal to see the content
 and compare it with the actual visualization in the GitHub repository
@@ -407,7 +407,7 @@ To https://github.com/eblancoga/repoDemo
 
 RESULT: see screenshot repoDemo9.png
 
-(12) Copy and paste this text explaining GitHub in 12 steps into our README.md (previous README.md format tricks are shown at the end)
+### (12) Copy and paste this text explaining GitHub in 12 steps into our README.md (previous README.md format tricks are shown at the end)
 (current state of the repo right now)
 
 
